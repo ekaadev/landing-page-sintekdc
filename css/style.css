@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width: 40px;
+    margin: 10px;
+}
+.hero{
+    margin: 40px;
+}
+.playlist-videos .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    size: 20px;
+ }
+ 
+ .playlist-videos .box-container .box{
+    background-color: var(--white);
+    border-radius: .5rem;
+    padding: 2rem;
+    position: relative;
+ }
+ 
+ .playlist-videos .box-container .box i{
+    position: absolute;
+    top: 2rem; left: 2rem; right: 2rem;
+    height: 20rem;
+    border-radius: .5rem;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color: #fff;
+    display: none;
+ }
+ 
+ .playlist-videos .box-container .box:hover i{
+    display: flex;
+ }
+ 
+ .playlist-videos .box-container .box img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: .5rem;
+ }
+ 
+ .playlist-videos .box-container .box h3{
+    margin-top: 1.5rem;
+    font-size: 1.8rem;
+    color: var(--black);
+ }
+ 
+ .playlist-videos .box-container .box:hover h3{
+    color: var(--main-color);
+ }
+table {
+    border-collapse: collapse;
+    
+    justify-content: center;
+    table-layout: fixed;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+     }
+ 
+  th,
+  td {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    
+  }
+  .mini{
+    width: 100px;
+  }
+  .kecil{
+    width: 200px;
+  }
+ 
+ 
+  th {
+    background-color: #3D177A;
+    font-weight: bold;
+    color: #333;
+    color: var(--white);
+    text-align: center; 
+    vertical-align: middle; 
+  }
