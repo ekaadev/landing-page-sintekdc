@@ -83,6 +83,9 @@
                 <!-- URL WHATSAPP ADMIN -->
                 <li class="nav-item active"><a class="nav-link" target="_blank" href="https://wa.me/6282328834886?text=Halo">Hubungi</a></li>
 
+                <li class="nav-item active"><a class="nav-link btn btn-primary text-light rounded-pill" target="_blank" href="https://jurnal.ukdc.ac.id/index.php/sintekdc/">Submit</a></li>
+
+
                 <!-- NOT NECESSARY -->
                 <!-- <li class="nav-item active"><a class="nav-link" href="login.php">Admin</a></li> -->
             </ul>
